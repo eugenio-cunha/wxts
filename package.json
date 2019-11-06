@@ -1,0 +1,34 @@
+{
+  "name": "webix-typescript",
+  "version": "1.1.0",
+  "description": "Sample project with Webix and Typescript",
+  "app": "app.js",
+  "scripts": {
+    "server": "webpack-dev-server",
+    "codebase": "webpack",
+    "watch": "webpack --watch",
+    "lint": "tslint src/**/**/*.ts"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "webix",
+    "typescript",
+    "ui"
+  ],
+  "devDependencies": {
+    "webix": "^5.2.1",
+    "webpack": "^2.2.1",
+    "webpack-stream": "^3.2.0",
+    "webpack-dev-server": "^2.0.0",
+    "webpack-livereload-plugin": "^0.10.0",
+    "css-loader": "^0.27.3",
+    "less-loader": "^3.0.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "less": "^2.7.2",
+    "awesome-typescript-loader": "^3.1.2",
+    "typescript": "^2.7.2",
+    "tslint": "^5.9.1"
+  }
+}
